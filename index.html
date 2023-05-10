@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A blog about Ian's favourite foods">
+    <title>Ian's Blog</title>
+    <style>
+        img {
+            border-radius: 8px;
+            border: 5px solid #444
+        }
+
+        body {
+            background: #dedbdb;
+            max-width: 1000px;
+            margin: auto;
+            padding: 10px;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            padding-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ian's Blog, Stardate 27042023</h1>
+    </header>
+    <main>
+        <article>
+            <header>
+                <h2>My favourite foods</h2>
+                <p>As of April 2023... subject to change without notice</p>
+            </header>
+            <details>
+                <summary>A traditional dish from distant lands, typically southern Asia, the Curry has become a staple
+                    dish in the UK.</summary>
+                <figure>
+                    <img src="images/curry.jpeg" alt="A typical curry dish" height="400">
+                    <figcaption>A traditional curry dish</figcaption>
+                </figure>
+                <p>With a curry house around every corner, and an almost infinite variety of dishes, curry can please
+                    even the pickiest of diners.<br>
+                    Whether enjoying a romantic evening with a loved one, or heading out on the town with your friends,
+                    a trip to a curry house has become a go-to event for many nights out in the UK.</p>
+                <p>Ian's Yum Factor: <meter value="0.7">70%</meter></p>
+            </details><br>
+            <details>
+                <summary>Once confined to the solitudes of a builder's cafe, the Full English is enjoyed by all.
+                </summary>
+                <figure>
+                    <img src="images/fullenglish.jpeg" alt="A typical full english dish" height="400">
+                    <figcaption>A traditional full english breakfast</figcaption>
+                </figure>
+                <p>Whether from a greasy 'spoons, or from a gourmet vegan joint, the full english has evolved and
+                    adapted to meet all dietary requirements.<br>
+                    Eggs any way you want them, hash browns or not, bacon or facon if you desire, anyone can enjoy this
+                    classical English dish.</p>
+                <p>Ian's Yum Factor: <meter value="0.8">80%</meter></p>
+            </details><br>
+            <details>
+                <summary>Heading to the Spanish coast, a Paella will leave you feeling full and satisfied.</summary>
+                <figure>
+                    <img src="images/paella.jpeg" alt="A typical paella dish" height="400">
+                    <figcaption>A traditional paella dish</figcaption>
+                </figure>
+                <p>This one-pot traditional Spanish dish can be made anyway you want it, and goes down particularly well
+                    with a cervaca or two.<br>
+                    A great dish to impressive with at the dining table, a paella will feed the masses, and not leave
+                    you out of pocket.</p>
+                <p>Ian's Yum Factor: <meter value="0.9">70%</meter></p>
+            </details><br>
+            <details>
+                <summary>A world-wide favourite, the Italian Pizza is the ultimate comfort food.</summary>
+                <figure>
+                    <img src="images/pizza.jpeg" alt="A typical pizza" height="400">
+                    <figcaption>A traditional pizza</figcaption>
+                </figure>
+                <p>Supermarkets will sell them to you frozen for pennies, or you can make your own dough for 24 hours
+                    beforehand - pizza will comfort both the slob in you and the chef in you.<br>
+                    Whether you want an easy "lob it in the oven" dinner, or want to have a fun date-night adding your
+                    own toppings to home-made dough, a pizza will put a smile on your face anytime.</p>
+                <p>Ian's Yum Factor: <meter value="1.0">100%</meter></p>
+            </details><br>
+            <details>
+                <summary>An easy, warming dish for a cold winter's day, a simple soup will sooth your cockles like
+                    nothing else.</summary>
+                <figure>
+                    <img src="images/soup.jpeg" alt="A typical soup dish" height="400">
+                    <figcaption>A traditional soup dish</figcaption>
+                </figure>
+                <p>As simple as chop, boil, blend, a soup is great way to get rid of leftover veggies, or experiment
+                    with new ones. A world-dish means you can make it however you like.<br>
+                    I remember the home-made soup my mother would make us on a cold day as a child, and now I can make
+                    it myself, with just 3 ingredients. Simply delicious!</p>
+                <p>Ian's Yum Factor: <meter value="0.7">70%</meter></p>
+            </details><br>
+        </article>
+        <label for="foods">Which of these foods is your favourite?</label>
+        <input list="foods" name="foods">
+        <datalist id="foods">
+            <option value="Curry">
+            <option value="Full English">
+            <option value="Paella">
+            <option value="Pizza">
+            <option value="Soup">
+        </datalist>
+    </main>
+    <footer>
+        <p>Copyright &copy; Ian McNicholas 2023</p>
+    </footer>
+</body>
+
+</html>
